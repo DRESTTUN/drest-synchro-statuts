@@ -16,11 +16,8 @@ puis suit chaque colis seule jusqu'à « livré » ou « retour ».
 
 ## Mise en ligne (≈ 30 min)
 
-### 1. Mettre le code sur GitHub
-1. Dézipper `drest-synchro-statuts.zip`.
-2. Sur github.com, ouvrir le dépôt privé `drest-synchro-statuts` → **Add file → Upload files** → glisser **le contenu** du dossier
-   (`app`, `lib`, `package.json`, `middleware.js`, `next.config.js`, `.gitignore`, `.env.example`, `README.md`) → **Commit changes**.
-   (Le fichier `.gitignore` est caché sur certains PC : ce n'est pas grave s'il manque.)
+### 1. Code sur GitHub
+Le code est dans le dépôt privé `DRESTTUN/drest-synchro-statuts` (branche `main`). Chaque modification poussée sur `main` est redéployée automatiquement par Vercel.
 
 ### 2. Créer le projet Vercel
 1. vercel.com → **Add New… → Project** → importer `drest-synchro-statuts` → **Deploy** (le 1er déploiement peut afficher une erreur : normal, les variables manquent).
